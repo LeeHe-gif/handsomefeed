@@ -7,7 +7,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libgudev
-PKG_VERSION:=236
+PKG_VERSION:=238
 PKG_RELEASE:=1
 
 PKG_SOURCE_URL:=https://download-fallback.gnome.org/sources/libgudev/$(PKG_VERSION)/
