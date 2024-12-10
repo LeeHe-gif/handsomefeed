@@ -8,13 +8,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=qrtr
-PKG_VERSION:=1.1
+PKG_VERSION:=0.3
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/linux-msm/qrtr.git
+PKG_SOURCE_URL:=https://github.com/scintill/qrtr.git
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_VERSION:=8f9b2bc3b60f59ecc9e6193764fa885cdef7f0ce
+PKG_SOURCE_VERSION:=ba500a4d3df1fa6664f7ec63d9357ab3f63e2a2e
 PKG_MIRROR_HASH:=3aa0c81abbd57ac7e968942bf0ab87114c5c116f8a296d55e11bd1bbb3eccb9d
 PKG_INSTALL:=1
 PKG_BUILD_PARALLEL:=1
