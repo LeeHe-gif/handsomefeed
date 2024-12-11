@@ -7,12 +7,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libgudev
-PKG_VERSION:=238
+PKG_VERSION:=236
 PKG_RELEASE:=1
 
-PKG_SOURCE_URL:=https://download-fallback.gnome.org/sources/libgudev/$(PKG_VERSION)/
+PKG_SOURCE_URL:=https://download.gnome.org/sources/libgudev/$(PKG_VERSION)/
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
-PKG_HASH:=61266ab1afc9d73dbc60a8b2af73e99d2fdff47d99544d085760e4fa667b5dd1
+PKG_HASH:=e50369d06d594bae615eb7aeb787de304ebaad07a26d1043cef8e9c7ab7c9524
 PKG_BUILD_DEPENDS:=meson/host
 
 PKG_BUILD_PARALLEL:=1
